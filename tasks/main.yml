@@ -8,7 +8,7 @@
     src: ssh_config.j2
     dest: "{{ ssh_config_file }}"
     backup: yes
-    #validate: echo %s
+    # validate: echo %s
 
 - name: Create ssh_known_hosts
   known_hosts:
