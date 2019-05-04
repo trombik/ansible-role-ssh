@@ -1,3 +1,9 @@
+## Release 1.1.2
+
+* 3cdf7ad bugfix: QA
+* a8f44d5 bugfix: update supported platforms
+* 6e7fd69 bugfix: update gems (#4)
+
 ## Release 1.1.1
 
 * 20f3cb0 [bugfix] Update rubocop to the latest (#1)
