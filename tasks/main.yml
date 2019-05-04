@@ -10,7 +10,7 @@
     backup: yes
     #validate: echo %s
 
-- name: Manage ssh_known_hosts
+- name: Create ssh_known_hosts
   known_hosts:
     path: "{{ ssh_known_hosts_file }}"
     name: "{{ item.name }}"
